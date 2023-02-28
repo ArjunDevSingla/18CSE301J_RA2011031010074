@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Project Title</title>
+	<title>My Tableau Presentation</title>
 	<style>
+		#data{
+		width:100vw;
+		height:100vh;
+		}
+		html {
+			height: 100%;
+		}
 		body {
-			font-family: Arial, sans-serif;
-			background-color: #F0F0F0;
+			background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
 		}
-
-		h1 {
-			color: #333333;
+		h1{
 			text-align: center;
-			margin-top: 50px;
 		}
-      
-      	h2 {
-			color: #333333;
-			text-align: center;
-			margin-top: 50px;
-		}
-
-		p {
-			color: #666666;
-			text-align: center;
-			font-size: 18px;
-			margin-top: 20px;
-		}
-		
-	iframe {
-			display: block;
-			margin: 0 auto;
-			margin-top: 50px;
-			width: 800px;
-			height: 600px;
+		h2{
+			text-align : center;
 		}
 	</style>
 </head>
+	<h1>
+		18CSE301J INFORMATION VISUALIZATION
+	</h1>
+	<h2>
+		ARYAN VATS
+	</h2>
+	
 <body>
-	<h1>Information Visualization - 18CSE301J</h1>
-	<p>By: Arjun Dev Singla (RA2011031010074)</p>
-  	<h2> Tableau Project </h2>
-	<iframe src="https://public.tableau.com/views/NetflixVisualizationdashboard/Netflix?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link" width="800" height="600"></iframe>
+	<!-- Embed Tableau Public presentation with embedded dashboard link -->
+	<iframe id="data" src="https://public.tableau.com/shared/2YGZFY4H5?:display_count=n&:origin=viz_share_link" width=100vw height=100vh></iframe>
 </body>
 </html>
